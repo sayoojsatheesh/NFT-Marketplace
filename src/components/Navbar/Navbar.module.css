@@ -1,0 +1,52 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1.5em;
+  color: white;
+}
+
+.imageContainer {
+  height: 25px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.navLeftSide {
+  display: flex;
+  gap: 1em;
+}
+
+.navChild {
+  /* Set initial color of underline */
+  border-bottom: 2px solid transparent;
+  /* Transition for smooth animation */
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.navChild:hover {
+  cursor: pointer;
+  border-bottom-color:#d6ef0e;
+  
+}
+
+.btn {
+  background-color: #d6ef0e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.3em 1em;
+  cursor: pointer;
+  color: white;
+}
+
+@media (min-width: 470px) {
+  .imageContainer {
+    display: none;
+  }
+}
+@media (max-width:469px) {
+    .navLeftSide{
+        display: none;
+    }
+    
+}
