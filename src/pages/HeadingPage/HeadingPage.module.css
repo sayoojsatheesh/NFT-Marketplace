@@ -1,3 +1,9 @@
-.mainContainer{
-    color: aliceblue;
+.mainContainer {
+  color: aliceblue;
+}
+
+@media (min-width: 900px) {
+  .mainContainer {
+    display: flex;
+  }
 }

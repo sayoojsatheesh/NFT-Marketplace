@@ -7,8 +7,8 @@ import classes from "./assets/global.module.css";
 function App() {
   return (
     <div className={classes.main}>
-      <Navbar />
-      <HeadingPage/>
+        <Navbar />
+        <HeadingPage />
     </div>
   );
 }

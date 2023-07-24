@@ -64,3 +64,9 @@ button {
   font-size: .5rem;
   color: white;
 }
+
+@media (min-width: 900px) {
+  .mainContainer {
+   width: 35%;
+  }
+}

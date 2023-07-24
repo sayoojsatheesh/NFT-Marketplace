@@ -1,0 +1,81 @@
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  height: 100%;
+  margin-top: 1.5em;
+  position: relative;
+}
+
+.ImageContainer {
+  width: 80%;
+}
+
+.ImageTag {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.svgTag {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 25%;
+}
+.topContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bidContainer {
+  border-top: 1px solid #d6ef0e;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 12%;
+  right: 2%;
+  width: 60%;
+  border-radius: 5px;
+  padding: .5em 1em;
+  background-color: rgb(54, 48, 59);
+}
+
+.bidCard {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}
+
+.bidCard:nth-child(1) {
+  color: white;
+}
+
+.bidBtn {
+  margin: 0 auto;
+  padding: 0.5em 4em;
+  border: 1px solid #d6ef0e;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnCont {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 900px) {
+  .MainContainer{
+    width: 65%;
+  }
+  .svgTag{
+    width: 10vw;
+  }
+  .bidContainer{
+    width: 40%;
+  }
+}
