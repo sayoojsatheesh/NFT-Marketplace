@@ -49,8 +49,15 @@
   gap: 1;
 }
 
-.bidCard:nth-child(1) {
-  color: white;
+.firstSpan{
+  color: #d6ef0e;
+}
+
+.btnCont {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .bidBtn {
@@ -59,13 +66,7 @@
   border: 1px solid #d6ef0e;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.btnCont {
-  display: flex;
-  align-items: center;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  color: #d6ef0e;
 }
 
 @media (min-width: 900px) {

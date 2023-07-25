@@ -1,0 +1,31 @@
+.marketPageContainer {
+  height: 100%;
+ 
+  padding: 1em 1em;
+}
+
+.MarketPageHeading {
+  display: flex;
+  padding: 1em 0.5em;
+  justify-content: space-between;
+}
+
+.Headings {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.seeAllBtn {
+  align-self: flex-end;
+  font-size: 0.7rem;
+  background-color: #d6ef0e;
+  border-radius: 5px;
+  cursor: pointer;
+}

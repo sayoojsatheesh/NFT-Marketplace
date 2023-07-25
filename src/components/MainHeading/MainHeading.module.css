@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  justify-content: center;
+  gap: 15px;
 }
-span {
+.mainContainer span {
   color: #d6ef0e;
 }
+
 h1,
 p {
   margin: 0;

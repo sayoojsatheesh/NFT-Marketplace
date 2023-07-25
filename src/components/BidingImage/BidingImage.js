@@ -14,11 +14,11 @@ const BidingImage = () => {
         <div className={classes.bidContainer}>
           <div className={classes.topContainer}>
             <div className={classes.bidCard}>
-              <span>BID ENDs IN</span>
+              <span className={classes.firstSpan}>BID ENDs IN</span>
               <span>05:45:12:05</span>
             </div>
             <div className={classes.bidCard}>
-              <span>CURRENT BID</span>
+              <span className={classes.firstSpan}>CURRENT BID</span>
               <span>0.24 ETH</span>
             </div>
           </div>

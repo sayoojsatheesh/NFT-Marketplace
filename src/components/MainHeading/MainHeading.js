@@ -4,7 +4,7 @@ const MainHeading = () => {
   return (
     <div className={classes.mainContainer}>
       <h1>
-        Discover and Collect The Best <span>Digital</span> NFTs.
+        Discover and Collect The Best NFTs <span>Digital ART</span>.
       </h1>
       <p>
         Get started with the best way to buy and sell digital art and NFTs.Start
