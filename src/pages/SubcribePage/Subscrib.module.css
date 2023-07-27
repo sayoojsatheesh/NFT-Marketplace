@@ -1,0 +1,92 @@
+.SubscribContainer {
+  margin-top: 2rem;
+  padding: 1.5em 1em;
+
+}
+.SubscribContainer h1 {
+  line-height: 1;
+}
+
+.LeftContainer{
+    display: none;
+}
+
+.SubscribContainer span {
+  color: #d6ef0e;
+}
+
+.RightSubContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.SubscribeBtn {
+  display: flex;
+  background-color: rgb(75, 75, 75);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.SubscribeBtn input {
+  width: 70%;
+  background-color: rgb(75, 75, 75);
+  border-radius: 5px;
+  padding-left: 0.5em;
+}
+.SubscribeBtn button {
+  width: 30%;
+  background-color: #d6ef0e;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (min-width: 750px) {
+  .SubscribContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LeftContainer {
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+  }
+  .RightContainer {
+    width: 50%;
+  }
+  .RightSubContainer {
+    width: 60%;
+  }
+  .LeftSubContainer {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .LeftSubContainer img {
+    width: 60%;
+    height: 80%;
+  }
+
+  .ImageRight {
+    width: 80%;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0; 
+    left: 15%; 
+    transform-origin: bottom left; 
+    transform: rotate(-35deg);
+  }
+
+  .ImageLeft {
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 5px;
+    z-index: 12;
+  }
+}

@@ -1,5 +1,4 @@
 .MainContainer {
-  min-height: 1016px;
   padding: 1rem 1.5rem;
 }
 
@@ -7,11 +6,13 @@
   display: grid;
   gap: 1em;
   padding-top: 0.5em;
+
 }
 
 .Heading {
   display: flex;
   justify-content: space-between;
+
 }
 
 .SellAllBtn {
@@ -20,6 +21,7 @@
   background-color: #d6ef0e;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 1rem;
 }
 
 .test {
@@ -30,6 +32,7 @@
 @media (min-width: 758px) {
   .ImageContainer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 230px 230px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
