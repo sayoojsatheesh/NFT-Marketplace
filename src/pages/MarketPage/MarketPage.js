@@ -1,6 +1,6 @@
 // Custom //
 import NFTContainer from "../../components/NFTContainer/NFTContainer";
-import NFTData from "../../data/NFTCard";
+import { NFTData } from "../../data/NFTCard";
 // CSS //
 import classes from "./MarketPage.module.css";
 
@@ -9,8 +9,8 @@ const MarketPage = () => {
     <div className={classes.marketPageContainer}>
       <div className={classes.MarketPageHeading}>
         <div className={classes.Headings}>
-          <span>Amazing and Super</span>
-          <span>Unqiue Art of this Week</span>
+          <h1>Amazing and Super</h1>
+          <h1>Unqiue Art of this Week</h1>
         </div>
         <button className={classes.seeAllBtn}>SEE ALL</button>
       </div>

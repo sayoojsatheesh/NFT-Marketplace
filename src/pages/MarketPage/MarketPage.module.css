@@ -1,6 +1,4 @@
 .marketPageContainer {
-  height: 100%;
- 
   padding: 1em 1em;
 }
 
@@ -28,4 +26,10 @@
   background-color: #d6ef0e;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .marketPageContainer {
+    padding: 1em 2rem;
+  }
 }

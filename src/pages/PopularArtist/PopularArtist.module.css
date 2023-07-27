@@ -1,0 +1,48 @@
+.MainContainer {
+  min-height: 1016px;
+  padding: 1rem 1.5rem;
+}
+
+.ImageContainer {
+  display: grid;
+  gap: 1em;
+  padding-top: 0.5em;
+}
+
+.Heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SellAllBtn {
+  align-self: center;
+  font-size: 0.7rem;
+  background-color: #d6ef0e;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.test {
+  background-color: aqua;
+  align-self: center;
+}
+
+@media (min-width: 758px) {
+  .ImageContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .ImageContainer > *:nth-child(2) {
+    grid-column: span 2;
+  }
+  .ImageContainer > *:nth-child(3) {
+    grid-column: span 2;
+  }
+  .ImageContainer > *:nth-child(4) {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
