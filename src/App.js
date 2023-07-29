@@ -8,6 +8,7 @@ import SubscribePage from "./pages/SubcribePage/SubscribPage";
 // CSS //
 import classes from "./assets/global.module.css";
 
+
 function App() {
   return (
     <div className={classes.main}>

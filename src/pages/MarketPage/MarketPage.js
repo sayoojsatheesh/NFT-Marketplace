@@ -6,7 +6,7 @@ import classes from "./MarketPage.module.css";
 
 const MarketPage = () => {
   return (
-    <div className={classes.marketPageContainer}>
+    <div className={classes.marketPageContainer} id="market">
       <div className={classes.MarketPageHeading}>
         <div className={classes.Headings}>
           <h1>Amazing and Super</h1>

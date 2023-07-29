@@ -7,7 +7,7 @@ import Naruto2 from "../../assets/Images/naruto2.jpg";
 
 const CreatePage = () => {
   return (
-    <div className={classes.CreatePageContainer}>
+    <div className={classes.CreatePageContainer} id="create">
       <div className={classes.LeftSide}>
         <div className={classes.LeftSideInner}>
           <h1>Create And Sell</h1>

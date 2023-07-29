@@ -2,7 +2,7 @@ import classes from "./Subscrib.module.css";
 
 const SubscribePage = () => {
   return (
-    <div className={classes.SubscribContainer}>
+    <div className={classes.SubscribContainer} id="subscribe">
       <div className={classes.LeftContainer}>
         <div className={classes.LeftSubContainer}>
           <img className={classes.ImageRight} src="https://plus.unsplash.com/premium_photo-1682124669726-6721b5a1932c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=885&q=80"/>

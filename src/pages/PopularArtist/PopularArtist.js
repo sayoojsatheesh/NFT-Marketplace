@@ -6,7 +6,7 @@ import { Images } from "../../data/NFTCard";
 
 const PopularArtist = () => {
   return (
-    <div className={classes.MainContainer}>
+    <div className={classes.MainContainer} id="popular">
       <div className={classes.Heading}>
         <div>
           <h1>

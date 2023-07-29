@@ -7,7 +7,7 @@ import BidingImage from "../../components/BidingImage/BidingImage";
 
 const HeadingPage = () => {
   return (
-    <div className={classes.mainContainer}>
+    <div className={classes.mainContainer} id='head'>
       <MainHeading />
       <BidingImage />
     </div>
